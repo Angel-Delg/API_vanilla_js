@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: grey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: honeydew;
+}
+.card{
+    padding: .25rem;
+    margin: 10px;
+    background-color: #fff;
+    color: #000;
+}
+.card h3 {
+    color: gold;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1000px){
+    .container{
+        flex-direction: row;
+    }
+}
